@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent"
+     android:background="#d5f8f5"
+	android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="fill_parent" android:orientation="vertical">
+		<include android:id="@+id/layout_title_bar" layout="@layout/tilte_bar"/>
+		<TextView android:text="用户详细信息"
+			android:textSize="15dip" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:paddingTop="10dip"
+			android:paddingBottom="10dip"></TextView>
+		<TableLayout android:id="@+id/TableLayout01"
+			android:stretchColumns="1" android:layout_width="wrap_content"
+			android:layout_height="wrap_content">
+			<TableRow android:id="@+id/TableRow01" android:layout_width="wrap_content"
+				android:layout_height="wrap_content">
+				<TextView android:text="用户头像" android:textSize="8pt"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+				<ImageView android:id="@+id/user_icon_query" android:textSize="8pt"
+					android:paddingLeft="10dip" android:lines="1"
+					android:scrollHorizontally="true" android:paddingRight="10dip"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					android:layout_marginLeft="10dip" android:layout_marginRight="10dip"/>
+			</TableRow>
+			<TableRow android:id="@+id/TableRow02" android:layout_width="wrap_content"
+				android:layout_height="wrap_content">
+				<TextView android:text="用户昵称：" android:textSize="8pt"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+				<TextView android:id="@+id/username_query"
+					android:layout_width="wrap_content" android:layout_marginLeft="10dip"
+					android:layout_marginRight="10dip"  android:textSize="8pt"
+					android:layout_height="wrap_content" android:lines="1"
+					android:textColor="#FF83FA"
+					android:scrollHorizontally="true"></TextView>
+			</TableRow>
+			<TableRow android:id="@+id/TableRow04" android:layout_width="wrap_content"
+				android:layout_height="wrap_content">
+				<TextView android:text="个性化签名："  android:textSize="8pt"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+				<TextView android:id="@+id/description_query"
+					android:layout_width="wrap_content" android:lines="1"
+					android:layout_height="wrap_content" android:layout_marginLeft="10dip" android:textSize="8pt"
+					android:layout_marginRight="10dip" 
+					android:textColor="#FF83FA"
+					 android:scrollHorizontally="true"/>
+			</TableRow>
+			<TableRow android:id="@+id/TableRow05" android:layout_width="wrap_content"
+				android:layout_height="wrap_content">
+				<TextView android:text="粉丝数："  android:textSize="8pt"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+				<TextView android:id="@+id/followers_count_query" android:textSize="8pt"
+					android:layout_width="wrap_content" android:lines="1"
+					android:layout_height="wrap_content" android:layout_marginLeft="10dip"
+					android:layout_marginRight="10dip" android:scrollHorizontally="true"
+					android:numeric="integer"
+					android:textColor="#FF83FA"></TextView>
+			</TableRow>
+			<TableRow android:id="@+id/TableRow06" android:layout_width="wrap_content"
+				android:layout_height="wrap_content">
+				<TextView android:text="关注数："  android:textSize="8pt"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+				<TextView android:id="@+id/friends_count_query" android:layout_width="wrap_content"
+					android:lines="1" android:layout_height="wrap_content" android:textSize="8pt"
+					android:layout_marginLeft="10dip" android:layout_marginRight="10dip"
+					android:scrollHorizontally="true" android:numeric="integer"
+					android:textColor="#FF83FA"/>
+			</TableRow>
+			
+		</TableLayout>
+	</LinearLayout>
+</ScrollView>

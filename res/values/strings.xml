@@ -1,0 +1,39 @@
+<resources>
+
+   
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="weibosdk_attention">注意</string>
+    <string name="weibosdk_delete_all">是否要删除这条微博？</string>
+    <string name="weibosdk_ok">是</string>
+    <string name="weibosdk_cancel">否</string>
+    <string name="weibosdk_app_name">com_weibo_android</string>
+    <string name="weibosdk_send">发送</string>
+     <string name="weibosdk_photo">拍照</string>
+    <string name="weibosdk_close">关闭</string>
+    <string name="weibosdk_share_dialog_title">新浪微博</string>
+    <string name="weibosdk_please_login">请登录！</string>
+    <string name="weibosdk_send_sucess">分享成功！</string>
+    <string name="weibosdk_send_failed">分享失败！</string>
+    <string name="weibosdk_del_pic">是否删除图片？</string>
+    
+     <string name="weibosdk_comment">评论</string>
+      <string name="weibosdk_forward">转发</string>
+       <string name="weibosdk_fav">收藏</string>
+       <string name="testcontent"></string>
+        <string name="hello">Hello World, LogoActivity!</string>
+    <string name="app_name">让你玩微博</string>
+    <string name="login">登 录</string>
+    <string name="authTip">授权提示</string>
+    <string name="authTipMsg">是否使用您的新浪 微博账号进行授权</string>
+    <string name="auth_url_empty">授权地址为空</string>
+    <string name="get_access_token_ing">正在获取用户授权信息...</string>
+    <string name="loading">正在加载...</string>
+    <string name="loading_auth_url">正在获取授权地址...</string>
+    
+     <string name="home">主页</string>
+    <string name="at">提及</string>
+    <string name="msg">信息</string>
+    <string name="more">更多</string>
+
+</resources>

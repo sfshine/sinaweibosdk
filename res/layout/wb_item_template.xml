@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content"
+ android:background="#d5f8f5">
+  
+  
+  
+  <ImageView android:id="@+id/img_wb_item_head"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:src="@drawable/usericon"
+  android:layout_marginTop="5dp"/>
+  
+  <!-- 右边框架 -->
+ <LinearLayout
+  android:layout_width="match_parent"
+  android:orientation="vertical"
+  android:layout_height="wrap_content"
+  android:layout_margin="5dp">
+  
+	 <!-- 用户名称、新浪认证部分 --> 
+	<LinearLayout
+	  android:layout_width="match_parent"
+	  android:layout_height="wrap_content"
+	  android:orientation="vertical">	  
+	  <!-- 用户名称 -->
+	  <TextView android:id="@+id/txt_wb_item_uname"
+		  android:layout_width="wrap_content"
+		  android:layout_height="wrap_content"
+		  android:textColor="#424d54"
+		  android:textSize="20dp"
+	  />
+	 	     <!-- 微博正文内容 -->
+				 <TextView android:id="@+id/txt_wb_item_content"
+				  android:layout_width="fill_parent"
+				  android:layout_height="wrap_content"
+				  android:textColor="#6b717b"
+				  android:textSize="12dp"
+				  />  
+	  	  
+	 </LinearLayout> 
+  
+  
+  
+  
+	
+  
+  	
+  
+
+  
+  
+  
+
+  
+  
+  </LinearLayout>
+  
+  
+  
+  
+</LinearLayout>
